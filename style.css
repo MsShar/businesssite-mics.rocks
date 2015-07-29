@@ -1,0 +1,378 @@
+html {
+ background-color: black;
+ /*background-image: url('micsrocks.jpg');*/
+ /*background-repeat: repeat-y;	*/
+}
+
+
+    /*background-color*/
+    /*background-image*/
+    /*background-repeat*/
+    /*background-attachment*/
+    /*background-position*/
+
+
+h1 {
+
+ text-align: center;
+ float: auto;
+ font-size: 64px;
+ color: white;
+ font-family: impact;
+ opacity:0.7;
+ background: #1E90FF;
+}
+/*mics.rocks:website nameabove*/
+h2 {
+
+	text-align: center;
+ 	font-size: 50px;
+ 	color: #FF00FF;
+ 	font-family: impact;
+ 	background-color: black;
+ 	opacity:0.8;
+/*above is heading for each page 
+i.e. featured artist on home page*/
+}
+
+h3{
+	font-family: impact;
+	color: white;
+}
+
+p{color: white;}
+
+h4{ font-family:arial;
+	text-align: fixed;
+	color: white;
+/*above is home bio on home page*/
+}
+
+h5{
+	font-family:impact;
+	text-align: fixed;
+	color: white;
+	font-size:18px;
+	/* closing statement store page copyright*/
+}
+
+
+
+.micsrocks{
+	width: 80%;
+	height: 80%;
+	/*page size*/
+}
+
+li {
+	display: inline;
+	color: white;
+    padding: 2px;
+    background-color: black;
+	font-size: 48px;
+	text-align: fixed;
+	font-family: bold;
+/*nav tabs is above change page*/
+	/*change text color here*/
+}
+
+nav.nexttab {
+    font-family: arial;
+  
+   
+}
+
+
+ul {
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: black;
+	background-left: 100px;
+	background-right:100px;
+}
+nav {
+
+text-align: center;
+padding: 0px;
+opacity:0.9;
+/*good*/
+}
+
+a:hover {
+    background-color: #A52A2A;
+    opacity:0.8;
+    /*can change hover color here*/
+}
+/*make color close to background color*/
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+body {
+	padding: 0px 0px;
+	width: 1000px;
+	height: 1000px;
+	border: 10px white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+	background-color: none;
+	background-image: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+    
+
+}
+
+
+iframe{
+	margin-top: 0px;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	/*iframe for video artist page*/
+}
+
+
+
+#framevideos{
+	width: 600px;
+	height: 900px;
+	border: 14px solid white;
+	margin: auto;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	opacity:0.8;
+	/*artists page*/
+}
+
+
+	#name {
+	width: 40%;
+	height: 400px;
+	background-color: blue;
+	margin-top: 20px;
+	float: left;
+	margin-left: 25px;
+	padding: 20px;
+}
+
+
+table {
+	position: fixed;
+	font-size: 84px;
+	color: white;
+	position: right;
+	font-family: impact;
+	opacity:0.5;
+    border-style: solid;
+    border-color: white #880000 ;
+    border-bottom-width: 13px;
+    border-top-width:13px;
+
+}
+
+.aboutartists{
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height:32%;
+	text-align: left;
+	padding: 30px 30px;
+	font-size: 18px;
+	color: white;
+	background: black;
+	opacity:0.8;
+	border: 20px;
+	/* div for bio section*/
+}
+
+.wrapbio{
+	/*put the bio in this box*/
+}
+
+form {
+color: white;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+height:30%;
+padding: 10px;
+font-size: 20px;
+text-align: left;
+margin-top: 28%;
+
+}
+
+li{
+
+	color: white;
+}
+
+#photos{
+width: 500px;
+height: 500px;
+border: 40px solid white;
+margin: auto;
+margin-top: 0%;
+border-bottom-right-radius: 2em;
+border-bottom-left-radius: 2em;
+border-top-right-radius: 2em;
+border-top-left-radius: 2em;
+}
+
+img{
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+
+}
+
+
+
+#buyphoto{
+
+	width:300px;
+	height:400px;
+	margin:auto;
+	float:auto;
+}
+
+.floating-box {
+    float: left;
+    width: 184px;
+    height: 180px;
+    margin: 10px;
+    margin-left:auto;
+    border: 3px solid white;
+    font-family: arial;
+    font-size: 11px;
+    color: white; 
+}
+
+
+
+.tourend-box {
+    clear: auto;
+    height:100px;
+    border: 20px solid #880000;
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    margin:auto;       
+}
+
+.store-box {
+    float: left;
+    width: 160px;
+    height: 220px;
+    margin: 10px;
+    margin-left:auto;
+    border: 3px solid white;
+    font-family: arial;
+    font-size: 14px;
+    color: white; 
+}
+/*above is for divs that floats*/
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 10px solid white;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	opacity:0.8;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid yellow;
+}
+
+div.img a:hover img {
+    border: 1px solid #FF00FF;
+}
+
+div.store {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+  color:white;
+ }
+/*above is for store*/
+/*below is for tour*/
+
+div.image {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.image img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid white;
+}
+
+div.image a:hover img {
+    border: 1px solid yellow;
+}
+
+div.tour {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+  color:white;
+  font-size:11px;
+}
+  /*below slide show fan*/
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    /*might have to adjust for slides to work, 
+    I added all the styles below*/
+    margin: 5px;
+    padding: 5px;
+    border: 10px solid white;
+    height: auto;
+    width: auto;
+    float: auto;
+    text-align: center;
+    border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	opacity:0.8;
+
+  }
+
+div#myBox {
+    position:absolute;
+    background-color:black;
+    z-index:auto;
+}
+
+
